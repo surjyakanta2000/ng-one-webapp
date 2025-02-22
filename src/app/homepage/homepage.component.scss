@@ -1,8 +1,95 @@
-.bg-success
-{     
-    background-image: linear-gradient(rgba(0,255,0,0.3),rgba(0,255,0,0.3)),
-                    url("../../assets/surya.jpg") !important;
-    background-size: cover;
-    background-repeat: no-repeat;
-    min-height: 100vh;
-} 
+.msg-section {
+    margin: 10px;
+    background-color: rgba(100, 250, 255, 0.921);
+    clip-path: polygon(95% 0%, 100% 50%, 95% 100%, 0% 100%, 5% 50%, 0% 0%);
+    color: white;
+    width: 100%;
+    padding: 10px;
+}
+
+.msg-content {
+    font-family: cursive;
+    font-weight: 400;
+    font-size: medium;
+    padding: 10px;
+}
+
+.main-section-row {
+    margin: 0;
+}
+
+.image-col {
+    display: contents;
+    justify-content: flex-end;
+    align-items: flex-end;
+    height: 100%;
+}
+
+.image-right {
+    display: flex;
+    justify-content: flex-end;
+    height: 470px;
+}
+
+.img-fluid {
+    background: rgb(255, 255, 255);
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(198, 255, 245, 0.30015756302521013) 35%, rgba(139, 249, 229, 0.38699229691876746) 100%);
+    // border: 1px solid green;
+}
+
+.image-text {
+    // justify-content: right;
+    // align-items: end;
+    // text-align: right;
+    width: 100%;
+    // position: absolute;
+    background-color: rgba(100, 250, 255, 0.921);
+    clip-path: polygon(100% 0%, 93% 50%, 100% 100%, 7% 100%, 0% 50%, 7% 0%);
+    padding: 10px;
+    font-family: cursive;
+    font-weight: 500;
+    font-size: medium;
+    color: white;
+}
+
+.hello {
+    font-family: cursive;
+    font-weight: 1000;
+    font-size: xx-large;
+    color: white;
+    padding: 10px;
+}
+
+.name {
+    font-family: cursive;
+    font-weight: 2000;
+    font-size: 70px;
+    color: white;
+    padding: 10px;
+}
+
+.description {
+    font-family: cursive;
+    font-weight: 800;
+    font-size: x-large;
+    color: white;
+    padding: 10px;
+}
+
+.center-details {
+    display: flex;
+    justify-content: center;
+    margin: 10%;
+}
+
+hr {
+    border: 1px solid rgb(0, 0, 0);
+    // width: 50%;
+}
+
+button {
+    background-color: rgba(20, 106, 40, 0.786);
+    color: white;
+    justify-content: center;
+    display: flex;
+}

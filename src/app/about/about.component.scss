@@ -1,0 +1,16 @@
+.about-banner{
+    display: flex;
+    justify-content: center;
+    // width: 40%;
+    background-color: rgba(100, 250, 255, 0.921);
+    clip-path: polygon(95% 0%, 100% 50%, 95% 100%, 0% 100%, 5% 50%, 0% 0%);
+    font-family: cursive;
+    font-weight: 400;
+    font-size: medium;
+    padding: 10px;
+    color: white;
+}
+.about-banner-row{
+    margin: 10px;
+     width: 50%;
+}

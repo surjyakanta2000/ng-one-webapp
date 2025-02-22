@@ -1,0 +1,30 @@
+.text-white-surya {
+    color: white;
+    font-family: cursive;
+    font-weight: 600;
+    font-size: x-large;
+}
+.text-white {
+    color: white;
+    font-family: cursive;
+    font-weight: 400;
+}
+
+.all-content {
+    padding: 2px;
+    -webkit-box-shadow: inset 0px 0px 10px 3px rgba(184,252,211,1);
+    -moz-box-shadow: inset 0px 0px 10px 3px rgba(184,252,211,1);
+    box-shadow: inset 0px 0px 10px 3px rgba(184,252,211,1);
+}
+.round-user{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+.nav-link {
+    color: white;
+    font-family: cursive;
+    font-weight: 400;
+    cursor: pointer;
+}
